@@ -1,0 +1,11 @@
+E:\ООП\КР\2var\2var\bin\Debug\netcoreapp3.0\2var.exe
+E:\ООП\КР\2var\2var\bin\Debug\netcoreapp3.0\2var.deps.json
+E:\ООП\КР\2var\2var\bin\Debug\netcoreapp3.0\2var.runtimeconfig.json
+E:\ООП\КР\2var\2var\bin\Debug\netcoreapp3.0\2var.runtimeconfig.dev.json
+E:\ООП\КР\2var\2var\bin\Debug\netcoreapp3.0\2var.dll
+E:\ООП\КР\2var\2var\bin\Debug\netcoreapp3.0\2var.pdb
+E:\ООП\КР\2var\2var\obj\Debug\netcoreapp3.0\2var.csprojAssemblyReference.cache
+E:\ООП\КР\2var\2var\obj\Debug\netcoreapp3.0\2var.AssemblyInfoInputs.cache
+E:\ООП\КР\2var\2var\obj\Debug\netcoreapp3.0\2var.AssemblyInfo.cs
+E:\ООП\КР\2var\2var\obj\Debug\netcoreapp3.0\2var.dll
+E:\ООП\КР\2var\2var\obj\Debug\netcoreapp3.0\2var.pdb
