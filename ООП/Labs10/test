@@ -1,0 +1,188 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+
+namespace ConsoleApp10
+{
+    class Program
+    {
+        public static void Exams_CollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
+        {
+            switch (e.Action)
+            {
+                case NotifyCollectionChangedAction.Add: // если добавление
+                    Exams newExams = e.NewItems[0] as Exams;
+                    Console.WriteLine($"Добавлен новый объект: {newExams.topic}");
+                    break;
+                case NotifyCollectionChangedAction.Remove: // если удаление
+                    Exams oldExams = e.OldItems[0] as Exams;
+                    Console.WriteLine($"Удален объект: {oldExams.topic}");
+                    break;
+                case NotifyCollectionChangedAction.Replace: // если замена
+                    Exams replacedExams = e.OldItems[0] as Exams;
+                    Exams replacingExams = e.NewItems[0] as Exams;
+                    Console.WriteLine($"Объект {replacedExams.topic} заменен объектом {replacingExams.topic}");
+                    break;
+            }
+        }
+        static void Main(string[] args)
+        {
+           
+            ArrayList list = new ArrayList();
+            list.Add(4);
+            list.Add(2);
+            list.Add(92);
+            list.Add(3);
+            list.Add(6);
+            list.Add("Pasha");
+            object student = new { name = "pasha", second_name = "biba" };
+            list.Add(student);
+            foreach (var i in list)
+            {
+                Console.WriteLine(i);
+            }
+
+            list.Remove(4);
+            int counter = 0;
+            foreach(var i in list)
+            {
+                counter++;
+                Console.WriteLine($"Номер эелемента: {counter} элмент: {i}");
+            }
+            Console.WriteLine(list[list.IndexOf(student)]);
+
+            Stack<char> st = new Stack<char>();
+
+            st.Push('a');
+            st.Push('g');
+            st.Push('o');
+            st.Push('r');
+            st.Push('p');
+            st.Push('a');
+            st.Push('a');
+            st.Push('a');
+            st.Push('a');
+            foreach (var i in st)
+            {
+                Console.Write(i);
+            }
+            Console.WriteLine();
+            Console.WriteLine("///////////////////////////////////////////////////");
+            for(int i=0;i<4; i++)
+            {
+                st.Pop();
+            }
+            foreach (var i in st)
+            {
+                Console.Write(i);
+            }
+            Console.WriteLine();
+            Console.WriteLine("///////////////////////////////////////////////////");
+            st.Push(' ');
+            st.Push('t');
+            st.Push('s');
+            st.Push('e');
+            st.Push('b');
+            foreach (var i in st)
+            {
+                Console.Write(i);
+            }
+            Console.WriteLine();
+            Console.WriteLine("///////////////////////////////////////////////////");
+            List<char> lt = new List<char>();
+            foreach(var i in st)
+            {
+                lt.Add(i);
+            }
+            foreach (var i in lt)
+            {
+                Console.Write(i);
+            }
+            Console.WriteLine();
+            Console.WriteLine("///////////////////////////////////////////////////");
+            Console.WriteLine( lt.Find(a=>a=='e'));
+
+            Exams exam1 = new Exams("Biology", 30);
+            Exams exam2 = new Exams("Phiziks", 14);
+            Exams exam3 = new Exams("Info", 123);
+            Exams exam4 = new Exams("PI", 12);
+            Exams exam5 = new Exams("Math", 235);
+            Stack<Exams> st2 = new Stack<Exams>();
+            st2.Push(exam1);
+            st2.Push(exam2);
+            st2.Push(exam3);
+            st2.Push(exam4);
+            st2.Push(exam5);
+            foreach(var i in st2)
+            {
+                Console.WriteLine(i);
+            }
+            st2.Pop();
+            Console.WriteLine("/////////////////////////////////");
+            foreach (var i in st2)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("/////////////////////////////////");
+            List<Exams> lt2 = new List<Exams>();
+            foreach(var i in st2 )
+            {
+                lt2.Add(i);
+            }
+            foreach (var i in lt2)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("/////////////////////////////////");
+            Console.WriteLine(lt2.Find(a=>a.topic.Contains("PI")));
+            ObservableCollection<Exams> oc = new ObservableCollection<Exams>();
+            oc.Add(exam1);
+            oc.Add(exam2);
+            oc.Add(exam3);
+            oc.Add(exam4);
+            Console.WriteLine("/////////////////////////////////");
+            foreach (var i in oc)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("/////////////////////////////////");
+            oc.CollectionChanged +=Exams_CollectionChanged;
+            oc.Add(exam5);
+            foreach (var i in oc)
+            {
+                Console.WriteLine(i);
+            }
+            oc.RemoveAt(1);
+            foreach (var i in oc)
+            {
+                Console.WriteLine(i);
+            }
+
+
+        }
+    }
+    class Exams
+    {
+       public string topic;
+        public int numbers;
+        string Topic { get; set; }
+        int Numbers { get; set; }
+        public Exams(string topic, int numbers)
+        {
+            this.topic = topic;
+            this.numbers = numbers;
+        }
+        public override string ToString()
+        {
+            return $"Exams topic is {topic} number of exams is {numbers}";
+        }
+        
+    }
+    
+
+}
