@@ -47,10 +47,18 @@ namespace Labs11
             {
                  new Student{specialty="ISiT", group=1,age=19,surname="Grudinsky", name="Pasha" } ,
                  new Student{specialty="ISiT", group=1,age= 20,surname= "Denisuk",name="Vanya"},
-                 new Student{specialty= "DEW",group= 3,age= 18,surname= "Yackunovich",name= "Sanya"},
-                 new Student{specialty= "POIT",group= 3, age= 19,surname= "Tsedrik",name= "Egor"},
+                 new Student{specialty= "DEW",group= 4,age= 18,surname= "Yackunovich",name= "Sanya"},
+                 new Student{specialty= "POIT",group= 4, age= 19,surname= "Tsedrik",name= "Egor"},
                  new Student{specialty="MOB",group= 6,age=17,surname= "Korh",name= "Denis"},
                   new Student{specialty="asd",group= 36,age=127,surname= "ASD",name= "Denis"},
+            };
+
+            List<Group> group = new List<Group>()
+            {
+                new Group{specialty="ISiT", group=1},
+                new Group{specialty="ISiT", group=2},
+                new Group{specialty="ISiT", group=3},
+                new Group{specialty="POIT", group=3}
             };
 
             var linq_speciality = from t in student
@@ -116,6 +124,15 @@ namespace Labs11
             }
             Console.WriteLine("////////////////////////////////////////////");
 
+            var linq_join = from t in student
+                            join pl in @group on t.@group equals pl.@group
+                            select new { Name = t.name, Specialty = pl.specialty, _Group = pl.@group, Surname = t.surname };
+
+            foreach(var t in linq_join)
+            {
+                Console.WriteLine($"{t.Name}  {t.Surname}  {t.Specialty}  {t._Group}");
+            }
+            Console.WriteLine("////////////////////////////////////////////");
         }
         public class Student
         {
@@ -129,6 +146,17 @@ namespace Labs11
             {
                 return $" {name}  {surname}  {age}  {specialty} {group}";
             }
+        }
+        
+        public class Group
+        {
+            public string specialty { get; set; }
+            public int group { get; set; }
+            public override string ToString()
+            {
+                return $" {specialty} {group}";
+            }
+
         }
         
     }
