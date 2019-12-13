@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,20 +14,22 @@ namespace Labs11
             var linq1 = from t in month
                         where t.Length == 4
                         select t;
-            foreach(var t in linq1)
+            foreach (var t in linq1)
             {
-                Console.Write(t+"; ");
+                Console.Write(t + "; ");
             }
             Console.WriteLine();
             Console.WriteLine("////////////////////////////////////////////");
-            //var linq2 = from t in month
-            //            where t.IndexOf()
-            //            select t;
-
+            var linq2 = month.Where(t => t.Contains('j') || t.Contains('f') || t.Contains('g') || t.Contains('d')).Select(t=>t);
+            foreach(var t in linq2)
+            {
+                Console.WriteLine(t);
+            }
+            Console.WriteLine("////////////////////////////////////////////");
             var linq3 = from t in month
-                       orderby t
+                        orderby t
                         select t;
-            foreach(var t in linq3)
+            foreach (var t in linq3)
             {
                 Console.Write(t + "; ");
             }
@@ -37,7 +39,7 @@ namespace Labs11
                         where t.Contains('u')
                         where t.Length >= 4
                         select t;
-            foreach(var t in linq4)
+            foreach (var t in linq4)
             {
                 Console.Write(t + "; ");
             }
@@ -46,7 +48,7 @@ namespace Labs11
             List<Student> student = new List<Student>()
             {
                  new Student{specialty="ISiT", group=1,age=19,surname="Grudinsky", name="Pasha" } ,
-                 new Student{specialty="ISiT", group=1,age= 20,surname= "Denisuk",name="Vanya"},
+                 new Student{specialty="ISiT", group=1,age= 18,surname= "Denisyuk",name="Vanya"},
                  new Student{specialty= "DEW",group= 4,age= 18,surname= "Yackunovich",name= "Sanya"},
                  new Student{specialty= "POIT",group= 4, age= 19,surname= "Tsedrik",name= "Egor"},
                  new Student{specialty="MOB",group= 6,age=17,surname= "Korh",name= "Denis"},
@@ -62,16 +64,16 @@ namespace Labs11
             };
 
             var linq_speciality = from t in student
-                                  where t.specialty=="ISiT"
+                                  where t.specialty == "ISiT"
                                   select t;
-            foreach(var t in linq_speciality)
+            foreach (var t in linq_speciality)
             {
                 Console.WriteLine(t + "; ");
             }
             Console.WriteLine("////////////////////////////////////////////");
 
             var linq_group = from t in student
-                             where t.@group == 3
+                             where t.@group == 4
                              select t;
 
 
@@ -85,14 +87,14 @@ namespace Labs11
             var linq_younger = from t in student
                                where t.age == younger
                                select t;
-            foreach(var t in linq_younger)
+            foreach (var t in linq_younger)
             {
                 Console.WriteLine(t);
             }
             Console.WriteLine("////////////////////////////////////////////");
 
             var linq_group_and_surname = from t in student
-                                         where t.@group == 3
+                                         where t.@group == 4
                                          orderby t.surname
                                          select t;
 
@@ -101,24 +103,12 @@ namespace Labs11
                 Console.WriteLine(t);
             }
             Console.WriteLine("////////////////////////////////////////////");
+            var first_surname = student.First(t => t.name == "Denis");
 
-            //IEnumerable<Student> first = student.First(t => t.name.Equals("Denis"));
-            //IEnumerable<Student> second = student.Where(t => t.name.Equals("Denis"));
-            //var linq_first_surname = from t in student
-            //                         where t.name.Equals("Denis")
-            //                         select t;
-
-            //foreach (var t in linq_first_surname)
-            //{
-            //    Console.WriteLine(t);
-            //}
-            //Console.WriteLine("////////////////////////////////////////////");
-            bool anyStudent = student.Any(t => t.name.Equals("a"));
-            var linq_my = from t in student
-                          where t.age > 17
-                          orderby t.name
-                          select t;
-            foreach(var t in linq_my)
+            Console.WriteLine("FIRST"+first_surname);
+            Console.WriteLine("////////////////////////////////////////////");
+            var linq_my = student.Where(t => t.age > 17).OrderBy(t => t.name).Take(1).Concat(student.Where(t => t.name.Contains("y")));
+            foreach (var t in linq_my)
             {
                 Console.WriteLine(t);
             }
@@ -128,7 +118,7 @@ namespace Labs11
                             join pl in @group on t.@group equals pl.@group
                             select new { Name = t.name, Specialty = pl.specialty, _Group = pl.@group, Surname = t.surname };
 
-            foreach(var t in linq_join)
+            foreach (var t in linq_join)
             {
                 Console.WriteLine($"{t.Name}  {t.Surname}  {t.Specialty}  {t._Group}");
             }
@@ -136,18 +126,18 @@ namespace Labs11
         }
         public class Student
         {
-           public  string specialty { get; set; }
-           public  int group { get; set; }
-           public int age { get; set; }
-           public string surname { get; set; }
-           public string name { get; set; }
+            public string specialty { get; set; }
+            public int group { get; set; }
+            public int age { get; set; }
+            public string surname { get; set; }
+            public string name { get; set; }
 
             public override string ToString()
             {
                 return $" {name}  {surname}  {age}  {specialty} {group}";
             }
         }
-        
+
         public class Group
         {
             public string specialty { get; set; }
@@ -158,6 +148,6 @@ namespace Labs11
             }
 
         }
-        
+
     }
 }

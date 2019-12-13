@@ -1,0 +1,11 @@
+E:\2_course\ООП\Labs_12\Labs_12\Labs_12\bin\Debug\netcoreapp3.0\Labs_12.exe
+E:\2_course\ООП\Labs_12\Labs_12\Labs_12\bin\Debug\netcoreapp3.0\Labs_12.deps.json
+E:\2_course\ООП\Labs_12\Labs_12\Labs_12\bin\Debug\netcoreapp3.0\Labs_12.runtimeconfig.json
+E:\2_course\ООП\Labs_12\Labs_12\Labs_12\bin\Debug\netcoreapp3.0\Labs_12.runtimeconfig.dev.json
+E:\2_course\ООП\Labs_12\Labs_12\Labs_12\bin\Debug\netcoreapp3.0\Labs_12.dll
+E:\2_course\ООП\Labs_12\Labs_12\Labs_12\bin\Debug\netcoreapp3.0\Labs_12.pdb
+E:\2_course\ООП\Labs_12\Labs_12\Labs_12\obj\Debug\netcoreapp3.0\Labs_12.csprojAssemblyReference.cache
+E:\2_course\ООП\Labs_12\Labs_12\Labs_12\obj\Debug\netcoreapp3.0\Labs_12.AssemblyInfoInputs.cache
+E:\2_course\ООП\Labs_12\Labs_12\Labs_12\obj\Debug\netcoreapp3.0\Labs_12.AssemblyInfo.cs
+E:\2_course\ООП\Labs_12\Labs_12\Labs_12\obj\Debug\netcoreapp3.0\Labs_12.dll
+E:\2_course\ООП\Labs_12\Labs_12\Labs_12\obj\Debug\netcoreapp3.0\Labs_12.pdb
