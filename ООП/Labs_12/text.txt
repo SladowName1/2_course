@@ -1,0 +1,16 @@
+Labs_12.Exams  Method  difficult
+Labs_12.Exams  Method  balls
+Labs_12.Exams  Method  counter
+Labs_12.Exams  Method  Clone
+Labs_12.Exams  Method  TestPassed
+Labs_12.Question  Method  get_Numbers
+Labs_12.Question  Method  set_Numbers
+Labs_12.Question  Method  get_Topic
+Labs_12.Question  Method  set_Topic
+Labs_12.Question  Method  ToString
+System.Object  Method  GetType
+System.Object  Method  Equals
+System.Object  Method  GetHashCode
+Labs_12.Exams  Constructor  .ctor
+Labs_12.Question  Property  Numbers
+Labs_12.Question  Property  Topic
