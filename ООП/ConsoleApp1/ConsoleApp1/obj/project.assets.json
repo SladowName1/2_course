@@ -3747,11 +3747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "E:\\2 курс\\2_course\\ООП\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "E:\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "E:\\2 курс\\2_course\\ООП\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\37525\\.nuget\\packages\\",
-      "outputPath": "E:\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "E:\\2 курс\\2_course\\ООП\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\37525\\AppData\\Roaming\\NuGet\\NuGet.Config",
