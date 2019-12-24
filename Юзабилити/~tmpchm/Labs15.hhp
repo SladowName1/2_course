@@ -1,0 +1,44 @@
+[OPTIONS]
+Compatibility=1.1
+Compiled file=E:\2 êóðñ\2_course\Þçàáèëèòè\Labs15.chm
+Contents file=Labs15.hhc
+Default Window=Main
+Default topic=aaaaaiea.html
+Default font=Tahoma,10,204
+Auto Index=No
+Display compile progress=No
+Full-text search=Yes
+Language=0x0419
+Title=labs_15
+Error log file=E:\2 êóðñ\2_course\Þçàáèëèòè\~tmpchm\Labs15.log
+
+[WINDOWS]
+Main="labs_15","Labs15.hhc","","aaaaaiea.html","aaaaaiea.html","","jump1","","jump2",0x061520,200,0x00304E,[-1,-1,-1,-1],0xb0000,,,,,,0
+
+[FILES]
+chapter-2.html
+aaieienoðaoeÿ.html
+aieia.html
+aooaaeoaðeÿ.html
+aaaaaiea.html
+aeaaiaÿ.html
+aiaaaeoueiioaio.html
+ci.html
+eiioaio.html
+ioiðaaea.html
+io÷ao_aooaaeoaðia.html
+io÷ao_noaoenoeeia.html
+iðiaaðea.html
+daaioieee.html
+noaoenoeea.html
+oeeuiu.html
+oiðia_aeÿ_iiaiai_caaaieÿ.html
+oiðia_aeÿ_io÷aoia.html
+helpman_topicinit.js
+jquery.js
+helpman_settings.js
+hmpopup_html.js
+[ALIAS]
+#include .\Labs15.h
+[MAP]
+#include .\Labs15.hm
