@@ -1,0 +1,70 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Fighter[4]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Serializ/Serializ%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+<item href="#ref-5"/>
+<item href="#ref-6"/>
+</SOAP-ENC:Array>
+<a1:Hunter id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Serializ/Serializ%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<name id="ref-7">Sam</name>
+<age>24</age>
+<height>190</height>
+<weapon id="ref-8"> kosa</weapon>
+<id>1743</id>
+<Fighter_x002B_name href="#ref-7"/>
+<Fighter_x002B_age>24</Fighter_x002B_age>
+<Fighter_x002B_height>190</Fighter_x002B_height>
+<Fighter_x002B_weapon href="#ref-8"/>
+<Fighter_x002B_id>1743</Fighter_x002B_id>
+</a1:Hunter>
+<a1:Archer id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Serializ/Serializ%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<arrowsNumber>1000</arrowsNumber>
+<name id="ref-9">Gos</name>
+<age>32</age>
+<height>185</height>
+<weapon id="ref-10">lyk</weapon>
+<id>7312</id>
+<Hunter_x002B_name href="#ref-9"/>
+<Hunter_x002B_age>32</Hunter_x002B_age>
+<Hunter_x002B_height>185</Hunter_x002B_height>
+<Hunter_x002B_weapon href="#ref-10"/>
+<Hunter_x002B_id>7312</Hunter_x002B_id>
+<Fighter_x002B_name href="#ref-9"/>
+<Fighter_x002B_age>32</Fighter_x002B_age>
+<Fighter_x002B_height>185</Fighter_x002B_height>
+<Fighter_x002B_weapon href="#ref-10"/>
+<Fighter_x002B_id>7312</Fighter_x002B_id>
+</a1:Archer>
+<a1:Shaman id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Serializ/Serializ%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<name id="ref-11">Trall</name>
+<age>25</age>
+<height>215</height>
+<weapon id="ref-12">magic</weapon>
+<id>3523</id>
+<Fighter_x002B_name href="#ref-11"/>
+<Fighter_x002B_age>25</Fighter_x002B_age>
+<Fighter_x002B_height>215</Fighter_x002B_height>
+<Fighter_x002B_weapon href="#ref-12"/>
+<Fighter_x002B_id>3523</Fighter_x002B_id>
+</a1:Shaman>
+<a1:Psychic id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Serializ/Serializ%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<soulsNumber>1000</soulsNumber>
+<name id="ref-13">Sun</name>
+<age>39</age>
+<height>170</height>
+<weapon id="ref-14">golos</weapon>
+<id>4823</id>
+<Shaman_x002B_name href="#ref-13"/>
+<Shaman_x002B_age>39</Shaman_x002B_age>
+<Shaman_x002B_height>170</Shaman_x002B_height>
+<Shaman_x002B_weapon href="#ref-14"/>
+<Shaman_x002B_id>4823</Shaman_x002B_id>
+<Fighter_x002B_name href="#ref-13"/>
+<Fighter_x002B_age>39</Fighter_x002B_age>
+<Fighter_x002B_height>170</Fighter_x002B_height>
+<Fighter_x002B_weapon href="#ref-14"/>
+<Fighter_x002B_id>4823</Fighter_x002B_id>
+</a1:Psychic>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

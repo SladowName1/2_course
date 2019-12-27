@@ -1,0 +1,32 @@
+D:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\bin\Debug\Serializ.exe.config
+D:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\bin\Debug\Serializ.exe
+D:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\bin\Debug\Serializ.pdb
+D:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\obj\Debug\Serializ.csprojAssemblyReference.cache
+D:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\obj\Debug\Serializ.csproj.CoreCompileInputs.cache
+D:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\obj\Debug\Serializ.exe
+D:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\obj\Debug\Serializ.pdb
+d:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\bin\Debug\Newtonsoft.Json.dll
+d:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\bin\Debug\StreamJsonRpc.dll
+d:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\bin\Debug\Newtonsoft.Json.xml
+d:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\bin\Debug\ru\StreamJsonRpc.resources.dll
+d:\Учёба\2 курс\ООП\лаба14\Serializ\Serializ\obj\Debug\Serializ.csproj.CopyComplete
+E:\лаба14\Serializ\Serializ\bin\Debug\Serializ.exe.config
+E:\лаба14\Serializ\Serializ\bin\Debug\Serializ.exe
+E:\лаба14\Serializ\Serializ\bin\Debug\Serializ.pdb
+E:\лаба14\Serializ\Serializ\bin\Debug\Newtonsoft.Json.dll
+E:\лаба14\Serializ\Serializ\bin\Debug\Newtonsoft.Json.xml
+E:\лаба14\Serializ\Serializ\bin\Debug\ru\StreamJsonRpc.resources.dll
+E:\лаба14\Serializ\Serializ\obj\Debug\Serializ.csprojAssemblyReference.cache
+E:\лаба14\Serializ\Serializ\obj\Debug\Serializ.csproj.CopyComplete
+E:\лаба14\Serializ\Serializ\obj\Debug\Serializ.exe
+E:\лаба14\Serializ\Serializ\obj\Debug\Serializ.pdb
+E:\2 курс\2_course\ООП\Labs_14\Serializ\Serializ\bin\Debug\Serializ.exe.config
+E:\2 курс\2_course\ООП\Labs_14\Serializ\Serializ\bin\Debug\Serializ.exe
+E:\2 курс\2_course\ООП\Labs_14\Serializ\Serializ\bin\Debug\Serializ.pdb
+E:\2 курс\2_course\ООП\Labs_14\Serializ\Serializ\bin\Debug\Newtonsoft.Json.dll
+E:\2 курс\2_course\ООП\Labs_14\Serializ\Serializ\bin\Debug\Newtonsoft.Json.xml
+E:\2 курс\2_course\ООП\Labs_14\Serializ\Serializ\bin\Debug\ru\StreamJsonRpc.resources.dll
+E:\2 курс\2_course\ООП\Labs_14\Serializ\Serializ\obj\Debug\Serializ.csprojAssemblyReference.cache
+E:\2 курс\2_course\ООП\Labs_14\Serializ\Serializ\obj\Debug\Serializ.csproj.CopyComplete
+E:\2 курс\2_course\ООП\Labs_14\Serializ\Serializ\obj\Debug\Serializ.exe
+E:\2 курс\2_course\ООП\Labs_14\Serializ\Serializ\obj\Debug\Serializ.pdb

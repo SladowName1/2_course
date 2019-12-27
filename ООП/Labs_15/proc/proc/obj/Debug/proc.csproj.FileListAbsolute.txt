@@ -1,0 +1,19 @@
+D:\Учёба\2 курс\ООП\лаба15\proc\proc\bin\Debug\proc.exe.config
+D:\Учёба\2 курс\ООП\лаба15\proc\proc\bin\Debug\proc.exe
+D:\Учёба\2 курс\ООП\лаба15\proc\proc\bin\Debug\proc.pdb
+D:\Учёба\2 курс\ООП\лаба15\proc\proc\obj\Debug\proc.csprojAssemblyReference.cache
+D:\Учёба\2 курс\ООП\лаба15\proc\proc\obj\Debug\proc.csproj.CoreCompileInputs.cache
+D:\Учёба\2 курс\ООП\лаба15\proc\proc\obj\Debug\proc.exe
+D:\Учёба\2 курс\ООП\лаба15\proc\proc\obj\Debug\proc.pdb
+E:\лаба15\proc\proc\bin\Debug\proc.exe.config
+E:\лаба15\proc\proc\bin\Debug\proc.exe
+E:\лаба15\proc\proc\bin\Debug\proc.pdb
+E:\лаба15\proc\proc\obj\Debug\proc.csprojAssemblyReference.cache
+E:\лаба15\proc\proc\obj\Debug\proc.exe
+E:\лаба15\proc\proc\obj\Debug\proc.pdb
+E:\2 курс\2_course\ООП\Labs_15\proc\proc\bin\Debug\proc.exe.config
+E:\2 курс\2_course\ООП\Labs_15\proc\proc\bin\Debug\proc.exe
+E:\2 курс\2_course\ООП\Labs_15\proc\proc\bin\Debug\proc.pdb
+E:\2 курс\2_course\ООП\Labs_15\proc\proc\obj\Debug\proc.csprojAssemblyReference.cache
+E:\2 курс\2_course\ООП\Labs_15\proc\proc\obj\Debug\proc.exe
+E:\2 курс\2_course\ООП\Labs_15\proc\proc\obj\Debug\proc.pdb
